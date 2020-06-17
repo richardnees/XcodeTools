@@ -348,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 791FEA1B249A0BA200BABDBA /* XcodeTools.xcconfig */;
 			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Debug;
 		};
@@ -355,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 791FEA1B249A0BA200BABDBA /* XcodeTools.xcconfig */;
 			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Release;
 		};
