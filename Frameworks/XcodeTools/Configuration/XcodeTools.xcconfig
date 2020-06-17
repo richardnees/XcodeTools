@@ -1,0 +1,2 @@
+PRODUCT_BUNDLE_IDENTIFIER = com.glovo.framework.XcodeTools
+PRODUCT_NAME = $(TARGET_NAME)

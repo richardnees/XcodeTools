@@ -1,0 +1,34 @@
+#include "Clang.xcconfig"
+#include "Cocoa.xcconfig"
+#include "Deployment.xcconfig"
+#include "GCC.xcconfig"
+#include "Swift.xcconfig"
+#include "Version.xcconfig"
+
+CODE_SIGN_STYLE = Manual
+PROVISIONING_PROFILE_SPECIFIER =
+
+COMBINE_HIDPI_IMAGES = YES
+
+COPY_PHASE_STRIP = NO
+
+DEBUG_INFORMATION_FORMAT = dwarf
+
+DEFINES_MODULE = YES
+
+ENABLE_TESTABILITY = YES
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) 
+
+INFOPLIST_FILE = Sources/Info.plist
+
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE
+MTL_FAST_MATH = YES
+
+ONLY_ACTIVE_ARCH = YES
+
+SDKROOT = macosx
+
+SKIP_INSTALL = YES
